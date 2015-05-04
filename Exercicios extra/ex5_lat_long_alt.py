@@ -12,15 +12,15 @@ def LongAlt(x, y, z):
     P = math.sqrt((x ** 2) + (y ** 2))
     tangTheta = (z / P) * (1 - E * N / (N + h)) ** -1
     Theta = math.atan(tangTheta)
-    
+
     while count < 5 :
         N = a / (math.sqrt(1 - E * math.sin(Theta) ** 2))
         h = P / (math.cos(Theta)) - N
         tangTheta = ((z / P) / (1 - E * N / (N + h)))
         count += 1
-        
+
     Theta = math.atan(tangTheta)
-    aux = [Theta, h]   
+    aux = [Theta, h]
     return aux
 
 x = float(input("Digite o valor de x: "))
@@ -32,3 +32,7 @@ aux = LongAlt(x, y, z)
 long = math.degrees(aux[0])
 alt = aux[1] * 1000
 print("Latitude: {0}º , Longitude: {1}º , Altitude: {2} m".format(lat, long, alt))
+
+# Nota: 1.0
+# Perceba que não havia a necessidade de repetir a funçõe de tetha se vc a
+# executasse antes do N e do h

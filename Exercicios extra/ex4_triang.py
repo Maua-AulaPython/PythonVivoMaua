@@ -16,3 +16,6 @@ if ((vet[2] ** 2) == vet[1] ** 2 + vet[0] ** 2):
 else:
     print("Nao e um triangulo retangulo !!")
     print("A = {0}, B = {1}, C = {2}".format(a, b, c))
+
+# Nota: 1.0
+# Atenção que o enunciado pedia uma função!

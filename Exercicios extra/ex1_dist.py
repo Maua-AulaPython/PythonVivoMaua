@@ -13,3 +13,6 @@ p2.append(float(input("Digite o valor de X2: ")))
 p2.append(float(input("Digite o valor de Y2: ")))
 
 print (distancia(p1, p2))
+
+# Nota: 1.0
+# Nice work!

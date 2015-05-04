@@ -24,6 +24,9 @@ for i in range(len(x)):
     for j in range(len(y)):
         c = distancia(x[ j ], y[ j ], x[ i ], y[ i ])
         if c > distMax :
-            distMax = c        
+            distMax = c
 
 print("O valor maximo e: " + str(distMax))
+
+# Nota: 1.0
+# Nice work!

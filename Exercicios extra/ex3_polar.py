@@ -21,3 +21,6 @@ angulo = angulorad / math.pi * 180
 print("Modulo: " + str(dist))
 print("Fase em radianos: " + str(angulorad))
 print("Fase em graus: " + str(angulo))
+
+# Nota: 1.0
+# Nice work!
