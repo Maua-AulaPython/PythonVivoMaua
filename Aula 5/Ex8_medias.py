@@ -41,3 +41,6 @@ try:
 except:
     print("Voce digitou algo errado!")
 print("\nA maior nota eh: ", max(lista))
+
+#Nota: 1.0
+#Comentario: Talvez possamos fazer menos testes/loops para chegar no mesmo resultado
